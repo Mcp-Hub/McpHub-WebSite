@@ -1,0 +1,26 @@
+{
+  "name": "mcphub",
+  "version": "1.0.0",
+  "description": "Le hub officiel pour Minecraft SRC",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build": "node build.js",
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danbenba/mcphub.git"
+  },
+  "keywords": ["danbenba"],
+  "author": "danbenba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danbenba/mcphub/issues"
+  },
+  "homepage": "https://github.com/danbenba/mcphub#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^21.11.0"
+  }
+}
